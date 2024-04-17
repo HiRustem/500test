@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>500NA700</title>
+
+  <link rel="stylesheet" href="./assets/fonts/fonts.css">
+  <link rel="stylesheet" href="./styles/variables.css" >
+  <link rel="stylesheet" href="./styles/global.css" >
+  <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body class="page">
+  <header class="header">
+    <a class="header__logo" href="">
+      <img class="header__logo-image" src="./assets/images/header-logo.png" alt="логотип шапки">
+    </a>
+
+    <button class="header__burger-button">
+      <img class="header__burger-image" src="./assets/images/burger.png" alt="кнопка меню">
+    </button>
+
+    <div class="header__menu-container">
+      <nav class="header__menu">
+        <ul class="header__menu-list">
+          <li class="header__menu-item item_with_list">
+            <a class="header__menu-link" href="">О нас</a>
+    
+            <img class="header__menu-arrow" src="./assets/images/arrow.png" alt="стрелочка навигации">
+    
+            <ul class="header__menu-link__list">
+              <li>
+                <a href="">О 500на700</a>
+              </li>
+  
+              <li>
+                <a href="">Документы</a>
+              </li>
+  
+              <li>
+                <a href="">Устойчивое развитие</a>
+              </li>
+  
+              <li>
+                <a href="">Команда</a>
+              </li>
+  
+              <li>
+                <a href="">Стратегия</a>
+              </li>
+            </ul>
+          </li>
+  
+          <li class="header__menu-item item_with_list">
+            <a class="header__menu-link" href="">Проекты</a>
+  
+            <img class="header__menu-arrow" src="./assets/images/arrow.png" alt="стрелочка навигации">
+            
+            <ul class="header__menu-link__list">
+              <li>
+                <a href="">Проект 1</a>
+              </li>
+  
+              <li>
+                <a href="">Проект 2</a>
+              </li>
+  
+              <li>
+                <a href="">Проект 3</a>
+              </li>
+  
+              <li>
+                <a href="">Проект 4</a>
+              </li>
+  
+              <li>
+                <a href="">Проект 5</a>
+              </li>
+            </ul>
+          </li>
+  
+          <li class="header__menu-item">
+            <a class="header__menu-link" href="">Новости</a>
+          </li>
+  
+          <li class="header__menu-item">
+            <a class="header__menu-link" href="">FAQ</a>
+          </li>
+  
+          <li class="header__menu-item">
+            <a class="header__menu-link" href="">Контакты</a>
+          </li>
+        </ul>
+      </nav>
+  
+      <button class="button header__button">Связаться с нами</button>
+    </div>
+
+    <dialog class="header__dialog">
+      <div class="header__dialog-head">
+        <h2 class="heading header__dialog-close__heading">Связаться с нами</h2>
+
+        <button class="header__dialog-close">
+          <img class="header__dialog-close__image" src="./assets/images/dialog-close.png" alt="кнопка закрытия диалогового окна">
+        </button>
+      </div>
+
+      <form class="subscribe__form">
+        <div class="subscribe__inputs">
+          <input class="subscribe__input" type="text" placeholder="Имя">
+
+          <input class="subscribe__input" type="tel" placeholder="Телефон">
+        </div>
+
+        <fieldset class="subscribe__checkbox-fieldset">
+          <label class="subscribe__checkbox-label" for="agree">
+            <input id="agree" class="subscribe__checkbox visually-hidden" type="checkbox">
+
+            <span class="subscribe__custom-checkbox"></span>
+
+            <span class="subscribe__checkbox-text">Я согласен (-а) на обработку персональных данных</span>
+          </label>
+
+          <button class="button subscribe__button">Отправить</button>
+        </fieldset>
+      </form>
+    </section>
+    </dialog>
+  </header>
+
+  <main class="main">
+    <section class="section projects">
+      <div class="projects__slider">
+        <div class="projects__slider-container">
+          <ul class="projects__slider-list">
+            <li class="projects__slider-item">
+              <article class="project-card">
+                <div>
+                  <a class="project-card__tag" href="">сайты</a>
+    
+                  <h2 class="heading project-card__heading">Заголо вок 1 Заголо вок 1 Заголо вок 1</h2>
+    
+                  <p class="project-card__description">
+                    Описание проекта Описание проекта Описание проекта Описание проекта Описание проекта Описание проекта Описание проекта Описание проекта
+                  </p>
+                </div>
+    
+                <div class="project-card__image-container">
+                  <img class="project-card__image" src="./assets/images/notebook.png" alt="картинка проекта">
+                </div>
+              </article>
+            </li>
+
+            <li class="projects__slider-item visually-hidden">
+              <article class="project-card">
+                <div>
+                  <a class="project-card__tag" href="">сайты</a>
+    
+                  <h2 class="heading project-card__heading">Заголо вок 2 Заголо вок 2 Заголо вок 2</h2>
+    
+                  <p class="project-card__description">
+                    Описание проекта Описание проекта Описание проекта Описание проекта Описание проекта Описание проекта Описание проекта Описание проекта
+                  </p>
+                </div>
+    
+                <div class="project-card__image-container">
+                  <img class="project-card__image" src="./assets/images/notebook.png" alt="картинка проекта">
+                </div>
+              </article>
+            </li>
+
+            <li class="projects__slider-item visually-hidden">
+              <article class="project-card">
+                <div>
+                  <a class="project-card__tag" href="">сайты</a>
+    
+                  <h2 class="heading project-card__heading">Заголо вок 3 Заголо вок 3 Заголо вок 3</h2>
+    
+                  <p class="project-card__description">
+                    Описание проекта Описание проекта Описание проекта Описание проекта Описание проекта Описание проекта Описание проекта Описание проекта
+                  </p>
+                </div>
+    
+                <div class="project-card__image-container">
+                  <img class="project-card__image" src="./assets/images/notebook.png" alt="картинка проекта">
+                </div>
+              </article>
+            </li>
+          </ul>
+        </div>
+
+        <div class="projects__slider-buttons">
+          <button class="slider-button projects__slider-button_prev">
+            <img class="slider-arrow arrow_prev" src="./assets/images/slider-arrow.png" alt="стрелка назад">
+          </button>
+
+          <button class="slider-button projects__slider-button_next">
+            <img class="slider-arrow" src="./assets/images/slider-arrow.png" alt="стрелка вперед">
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <section class="section news">
+      <h2 class="heading news__heading">Новости</h2>
+
+      <ul class="news__posts-list">
+        <li class="news__posts-item">
+          <a class="news__posts-link" href="">
+            <article class="news__posts-card">
+              <img class="news__posts-card__image" src="./assets/images/first-news-image.png" alt="">
+  
+              <h3 class="heading news__posts-card__heading">Заголовок новости 1</h3>
+  
+              <p class="news__posts-card__description">
+                Описание новости в 3 строки Описание новости в 3 строкиОписание новости в 3 строкиОписание новости в 3 строки Описание новости в 3 строки Описание...
+              </p>
+  
+              <span class="news__posts-card__date">01 января 1990</span>
+            </article>
+          </a>
+        </li>
+
+        <li class="news__posts-item news__posts-item_hidden">
+          <a class="news__posts-link" href="">
+            <article class="news__posts-card">
+              <img class="news__posts-card__image" src="./assets/images/second-news-image.png" alt="">
+  
+              <h3 class="heading news__posts-card__heading">Заголовок новости 2</h3>
+  
+              <p class="news__posts-card__description">
+                Описание новости в 3 строки Описание новости в 3 строкиОписание новости в 3 строкиОписание новости в 3 строки Описание новости в 3 строки Описание...
+              </p>
+  
+              <span class="news__posts-card__date">01 января 1990</span>
+            </article>
+          </a>
+        </li>
+
+        <li class="news__posts-item news__posts-item_hidden">
+          <a class="news__posts-link" href="">
+            <article class="news__posts-card">
+              <img class="news__posts-card__image" src="./assets/images/third-news-image.png" alt="">
+  
+              <h3 class="heading news__posts-card__heading">Заголовок новости 3</h3>
+  
+              <p class="news__posts-card__description">
+                Описание новости в 3 строки Описание новости в 3 строкиОписание новости в 3 строкиОписание новости в 3 строки Описание новости в 3 строки Описание...
+              </p>
+  
+              <span class="news__posts-card__date">01 января 1990</span>
+            </article>
+          </a>
+        </li>
+
+        <li class="news__posts-item news__posts-item_hidden">
+          <a class="news__posts-link" href="">
+            <article class="news__posts-card">
+              <img class="news__posts-card__image" src="./assets/images/fourth-news-image.png" alt="">
+  
+              <h3 class="heading news__posts-card__heading">Заголовок новости 4</h3>
+  
+              <p class="news__posts-card__description">
+                Описание новости в 3 строки Описание новости в 3 строкиОписание новости в 3 строкиОписание новости в 3 строки Описание новости в 3 строки Описание...
+              </p>
+  
+              <span class="news__posts-card__date">01 января 1990</span>
+            </article>
+          </a>
+        </li>
+
+        <li class="news__posts-item news__posts-item_hidden">
+          <a class="news__posts-link" href="">
+            <article class="news__posts-card">
+              <img class="news__posts-card__image" src="./assets/images/fifth-news-image.png" alt="">
+  
+              <h3 class="heading news__posts-card__heading">Заголовок новости 5</h3>
+  
+              <p class="news__posts-card__description">
+                Описание новости в 3 строки Описание новости в 3 строкиОписание новости в 3 строкиОписание новости в 3 строки Описание новости в 3 строки Описание...
+              </p>
+  
+              <span class="news__posts-card__date">01 января 1990</span>
+            </article>
+          </a>
+        </li>
+
+        <li class="news__posts-item news__posts-item_hidden">
+          <a class="news__posts-link" href="">
+            <article class="news__posts-card">
+              <img class="news__posts-card__image" src="./assets/images/sixth-news-image.png" alt="">
+  
+              <h3 class="heading news__posts-card__heading">Заголовок новости 6</h3>
+  
+              <p class="news__posts-card__description">
+                Описание новости в 3 строки Описание новости в 3 строкиОписание новости в 3 строкиОписание новости в 3 строки Описание новости в 3 строки Описание...
+              </p>
+  
+              <span class="news__posts-card__date">01 января 1990</span>
+            </article>
+          </a>
+        </li>
+      </ul>
+
+      <div class="news__slider-buttons">
+        <button class="slider-button news__slider-button_prev">
+          <img class="slider-arrow arrow_prev" src="./assets/images/slider-arrow.png" alt="стрелка назад">
+        </button>
+
+        <button class="slider-button news__slider-button_next">
+          <img class="slider-arrow" src="./assets/images/slider-arrow.png" alt="стрелка вперед">
+        </button>
+      </div>
+    </section>
+
+    <section class="section answers">
+      <h2 class="heading answers__heading">FAQ</h2>
+
+      <ul class="asnwers-list">
+        <li class="answers-item">
+          <input id="services-answer" class="answers-accordion__checkbox visually-hidden" name="answers-accordion" type="checkbox">
+            
+          <label class="heading answers-accordion__label" for="services-answer">
+            Какие услуги предоставляет ваша студия?
+
+            <div class="answers-accordion__arrow-container">
+              <img class="answers-accordion__arrow" src="./assets/images/arrow.png" alt="стрелка аккордиона">
+            </div>
+          </label>
+
+          <article class="answers-accordion__text visually-hidden">
+            <p>
+              Мы придерживаемся высоких стандартов качества и стремимся создавать уникальный дизайн, отвечающий потребностям и ожиданиям наших клиентов. Наши дизайнеры постоянно совершенствуют свои навыки и следят за новыми трендами в дизайне.
+            </p>
+          </article>
+        </li>
+
+        <li class="answers-item">
+          <input id="quality-answer" class="answers-accordion__checkbox visually-hidden" name="answers-accordion" type="checkbox">
+            
+          <label class="heading answers-accordion__label" for="quality-answer">
+            Как вы обеспечиваете качество и уникальность дизайна?
+
+            <div class="answers-accordion__arrow-container">
+              <img class="answers-accordion__arrow" src="./assets/images/arrow.png" alt="стрелка аккордиона">
+            </div>
+          </label>
+
+          <article class="answers-accordion__text visually-hidden">
+            <p>
+              Мы придерживаемся высоких стандартов качества и стремимся создавать уникальный дизайн, отвечающий потребностям и ожиданиям наших клиентов. Наши дизайнеры постоянно совершенствуют свои навыки и следят за новыми трендами в дизайне.
+            </p>
+          </article>
+        </li>
+
+        <li class="answers-item">
+          <input id="web-services-answer" class="answers-accordion__checkbox visually-hidden" name="answers-accordion" type="checkbox">
+            
+          <label class="heading answers-accordion__label" for="web-services-answer">
+            Предоставляете ли вы услуги по созданию контента для сайтов и приложений?
+
+            <div class="answers-accordion__arrow-container">
+              <img class="answers-accordion__arrow" src="./assets/images/arrow.png" alt="стрелка аккордиона">
+            </div>
+          </label>
+
+          <article class="answers-accordion__text visually-hidden">
+            <p>
+              Мы придерживаемся высоких стандартов качества и стремимся создавать уникальный дизайн, отвечающий потребностям и ожиданиям наших клиентов. Наши дизайнеры постоянно совершенствуют свои навыки и следят за новыми трендами в дизайне.
+            </p>
+          </article>
+        </li>
+      </ul>
+    </section>
+
+    <section class="section subscribe">
+      <div class="subscribe__heading-container">
+        <h2 class="heading subscribe__heading">подпишись на рассылку</h2>
+
+        <p class="subscribe__description">Отправляем анонсы новых статей, выпусков и трансляций</p>
+      </div>
+
+      <form class="subscribe__form">
+        <div class="subscribe__inputs">
+          <input class="subscribe__input" type="email" placeholder="Электронная почта">
+
+          <input class="subscribe__input" type="text" placeholder="Дата (например, 01.01.1990)">
+  
+          <input class="subscribe__input subscribe__tel-input" type="text" placeholder="Телефон" maxlength="18">
+  
+          <input class="subscribe__input" type="text" placeholder="Время (например, 10:00)">
+        </div>
+
+        <fieldset class="subscribe__checkbox-fieldset">
+          <label class="subscribe__checkbox-label" for="agree">
+            <input id="agree" class="subscribe__checkbox visually-hidden" type="checkbox">
+
+            <span class="subscribe__custom-checkbox"></span>
+
+            <span class="subscribe__checkbox-text">Я согласен (-а) на обработку персональных данных</span>
+          </label>
+
+          <button class="button subscribe__button">Подписаться</button>
+        </fieldset>
+      </form>
+    </section>
+  </main>
+
+  <footer class="section footer">
+    <div class="footer__media">
+      <a class="footer__logo" href="">
+        <img src="./assets/images/footer-logo.png" alt="лого футера">
+      </a>
+
+      <ul class="footer__social-list">
+        <li class="footer__social-item">
+          <a class="footer__social-link" href="">
+            <img class="footer__social-image" src="./assets/images/youtube-icon.png" alt="иконка youtube">
+          </a>
+        </li>
+
+        <li class="footer__social-item">
+          <a class="footer__social-link" href="">
+            <img class="footer__social-image" src="./assets/images/telegram-icon.png" alt="иконка telegram">
+          </a>
+        </li>
+
+        <li class="footer__social-item">
+          <a class="footer__social-link" href="">
+            <img class="footer__social-image" src="./assets/images/vk-icon.png" alt="иконка vk">
+          </a>
+        </li>
+      </ul>
+    </div>
+
+    <div class="footer__navigation">
+      <ul class="footer__navigation-list">
+        <li class="footer__navigation-item">
+          <a class="footer__navigation-link" href="">О нас</a>
+        </li>
+
+        <li class="footer__navigation-item">
+          <a class="footer__navigation-link" href="">Проекты</a>
+        </li>
+
+        <li class="footer__navigation-item">
+          <a class="footer__navigation-link" href="">Новости</a>
+        </li>
+      </ul>
+
+      <ul class="footer__navigation-list">
+        <li class="footer__navigation-item">
+          <a class="footer__navigation-link" href="">FAQ</a>
+        </li>
+
+        <li class="footer__navigation-item">
+          <a class="footer__navigation-link" href="">Контакты</a>
+        </li>
+      </ul>
+    </div>
+
+    <address class="footer__information">
+      <p class="footer__information-address">г. Горгород, <br>ул. Мегаполисная, 1</p>
+
+      <a class="footer__information-link" href="tel:+70000000000">+7 (000) 000-00-00</a>
+
+      <a class="footer__information-link" href="email@email.ru">email@email.ru</a>
+    </address>
+  </footer>
+
+  <script src="./scripts/script.js"></script>
+</body>
+</html>

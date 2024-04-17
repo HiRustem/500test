@@ -1,0 +1,21 @@
+:root {
+  --bg-color: #0f0f17;
+  --decorative-elements-color: #ffffff4d;
+  --gradient: linear-gradient(180deg, #FB8627 0%, #F5BEF6 100%);
+
+  --text-color: #fff;
+
+  --main-padding: 40px;
+  --heading-size: clamp(1.5rem, 1.2143rem + 1.4286vw, 2.5rem);
+  --semi-heading-size: clamp(1.25rem, 1.1786rem + 0.3571vw, 1.5rem);
+
+  --header-height: clamp(5.1875rem, 4.5446rem + 3.2143vw, 7.4375rem);
+  --header-inline-padding: clamp(0.625rem, 0.0893rem + 2.6786vw, 2.5rem);
+
+  --header-logo-width: clamp(2.75rem, 2.2857rem + 2.3214vw, 4.375rem);
+  --header-logo-height: clamp(3.3125rem, 2.7589rem + 2.7679vw, 5.25rem);
+
+  --slider-image-width: clamp(20rem, 13.75rem + 31.25vw, 41.875rem);
+
+  --news-posts-list-padding: clamp(5rem, 3.75rem + 6.25vw, 9.375rem);
+}
